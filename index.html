@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- Configurações da página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameFinityHub</title>
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- Estilo -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">GameFinity<span>Hub</span></a>
+        <div class="menu">
+          <ul class="title grid">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <!-- <li><a href="#testimonials">Depoimentos</a></li> -->
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <main>
+      <!----------------------------------------------------------------------- Home ------------------------------------------------------------------------->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+              alt="Foto de um sistema de arcade, mais famoso antigamente com máquinas de jogos"
+            />
+          </div>
+          <div class="text">
+            <h1 class="title">Sugestão para jogos</h1>
+            <p>
+              Onde você vai achar o próximo jogo para jogar!
+            </p>
+            <a class="button" href="https://www.igdb.com" target="_blank"> Acessar o IGDB </a>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+      <!----------------------------------------------------------------------- About ------------------------------------------------------------------------>
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt="Dois pares de mãos segurando um controle de Playstation cada jogando futebol na tv embaçada atrás"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre o site</h2>
+            <p>
+              Um aplicativo onde os usuários podem criar enquetes onde os eleitores podem sugerir quaisquer jogos disponíveis no IGDB 
+              para jogar em uma transmissão ou reunião de jogos. IGDB (Internet Game Data Base) possui uma API útil para obter jogos e 
+              seria necessário implementar algum tipo de pesquisa AJAX para isso.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+      <!--------------------------------------------------------------------- Services ----------------------------------------------------------------------->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <div class="text">
+              <h2 class="title">Serviços</h2>
+              <p>
+                Oferecemos um serviço onde jogadores podem se juntao ao
+                <strong>GameFinityHub</strong> para compartilhar ideias e ajudar
+                outros jogadores a decidirem qual próximo jogo jogar
+              </p>
+            </div>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icones"><img src="./assets/icons/teclado_mouse.svg" alt=""></i>
+              <h3 class="title">Criação de enquetes</h3>
+              <p class="text">
+                Os jogadores podem criar suas próprias enquetes para que outros possam votar ou adicionar jogos nelas
+              </p>
+            </div>
+            <div class="card">
+              <i class="icones"><img src="./assets/icons/monitor.svg" alt=""></i>
+              <h3 class="title">Votar em enquetes</h3>
+              <p class="text">
+                Você pode ver enquetes ja criadas por outros jogadores para dar a sua opinião
+              </p>
+            </div>
+            <div class="card">
+              <i class="icones"><img src="./assets/icons/console.svg" alt=""></i>
+              <h3 class="title">Resultados</h3>
+              <p class="text">
+                O <strong>GameFinityHub</strong> disponibilizará o resultado da sua enquete para que você possa analisar as opções e votações,
+                com uma lista em ranking dos mais votados!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+      <!-------------------------------------------------------------------- Testimonials -------------------------------------------------------------------->
+      <!-- <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Nostrum ipsum molestiae quos ducimus
+                    corrupti nisi error et, quisquam labore
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/photos/57.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quae facere, nostrum ipsum totam beatae
+                    deserunt deleniti ea explicabo doloremque
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/photos/69.jpg"
+                      alt="Foto de Laryssa Albuquerque"
+                    />
+                    Laryssa Albuquerque
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Adipisci, dolorem vero? Modi praesentium
+                    recusandae quam error culpa incidunt.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/3.jpg"
+                      alt="Foto de Vitoria Lyra"
+                    />
+                    Vitoria Lyra
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div> -->
+      <!---------------------------------------------------------------------- Contact ----------------------------------------------------------------------->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente</h2>
+            <p>
+              Entre em contato com a GameFinityHub, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://wa.me/5581996547599?text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 00 00000-0000</li>
+              <li><i class="icon-map-pin"></i> R. Guilherme Pinto, 114</li>
+              <li><i class="icon-mail"></i> contato@gamefinityhub.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+    </main>
+    <!---------------------------------------------------------------------- Footer ------------------------------------------------------------------------>
+    <section class="section" id="footer">
+      <div class="container grid">
+        <div class="brand">
+          <a href="#home" class="title">GameFinity<span>Hub</span></a>
+          <div class="text">
+            <p>Daniel Lins Aretakis</p>
+            <p>Eduardo Rosendo</p>
+            <p>Edimilson Augusto</p>
+            <p>João Vitor</p>
+            <p>Rafael Hilário</p>
+          </div>
+        </div>
+        <div class="links">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            class="icon-instagram"
+          ></a
+          ><a
+            href="https://facebook.com"
+            target="_blank"
+            class="icon-facebook"
+          ></a
+          ><a
+            href="https://youtube.com"
+            target="_blank"
+            class="icon-youtube"
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------------------------------------------- ArrowUp ------------------------------------------------------------------------>
+    <a href="#home" class="arrow-up"><i class="icon-chevron-up"></i></a>
+
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
+  </body>
+</html>
